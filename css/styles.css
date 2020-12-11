@@ -1,0 +1,25 @@
+.parent-item-blue {
+    display: flex;
+    flex-direction: row;
+}
+
+.child-item-blue{
+    width: 25%;
+    height: 100px;
+    background-color: #8cacea;
+    margin: 1em;
+    list-style-type: none;
+}
+
+.parent-item-red {
+    display: flex;
+    flex-direction: row;
+}
+
+.child-item-red{
+    width: 25%;
+    height: 100px;
+    background-color: rgba(231, 136, 136, 0.733);
+    margin: 1em;
+    list-style-type: none;
+}
