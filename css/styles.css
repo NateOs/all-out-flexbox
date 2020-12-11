@@ -14,10 +14,12 @@
 .parent-item-red {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
 }
 
 .child-item-red{
-    width: 25%;
+    width: 100px;
     height: 100px;
     background-color: rgba(231, 136, 136, 0.733);
     margin: 1em;
