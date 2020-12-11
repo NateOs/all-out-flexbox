@@ -13,9 +13,10 @@
 
 .parent-item-red {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row;
     flex-wrap: wrap-reverse;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    flex-flow: row wrap; /*Does the same as above*/
 }
 
 .child-item-red{
