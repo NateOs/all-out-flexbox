@@ -1,3 +1,14 @@
+body {
+display: flex;
+flex-direction: column;
+/* align-items: flex-start; */ /*this is the opp of justify-content*/
+}
+
+.container-props {
+    font-family: 'Lucida Console';
+    text-decoration: underline;
+}
+
 .parent-item-blue {
     display: flex;
     flex-direction: row;
@@ -25,4 +36,48 @@
     background-color: rgba(231, 136, 136, 0.733);
     margin: 1em;
     list-style-type: none;
+}
+
+.parent-item-green {
+    display:flex;
+    border: 1px solid red;
+    padding: 0;
+    background-color: #e8e8e9;
+    /* justify-content: space-around; */
+    align-items: stretch;
+    /* align-content: flex-end; */
+}
+
+.child-item-green{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(136, 231, 144, 0.733);
+    margin: 1em;
+    padding: 1em;
+    list-style-type: none;
+    align-items: flex-end;
+}
+
+.parent-item-cyan {
+    display:flex;
+    border: 1px solid rgb(7, 6, 6);
+    padding: 0;
+    background-color: #e8e8e9;
+    align-items: flex-end;
+}
+
+.child-item-cyan{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(136, 212, 231, 0.733);
+    margin: 1em;
+    padding: 1em;
+    list-style-type: none;
+    flex-grow: 1;
+    /*flex-basis: % or pixel can be used to determine growth or shrinkage of a 
+    flex item, can be set to auto or static value for no flexibility*/
+}
+
+.child-item-cyan:nth-child(1) {
+    order:1;
 }
