@@ -76,8 +76,51 @@ flex-direction: column;
     flex-grow: 1;
     /*flex-basis: % or pixel can be used to determine growth or shrinkage of a 
     flex item, can be set to auto or static value for no flexibility*/
+    /*flex: 0 0 auto; this GROW SHRINK BASIS shorthand spcifies that the item
+    doesnt grow nor shrink with basis set to auto*/
 }
 
 .child-item-cyan:nth-child(1) {
     order:1;
 }
+
+
+.flex-basis-flex {
+    display:flex;
+    border: 1px solid rgb(7, 6, 6);
+    padding: 0;
+    background-color: indigo;
+    align-items: flex-end;
+}
+
+.flex-basis-flex-child {
+    height: 100px;
+    background-color:white;
+    margin: 1em;
+    padding: 1em;
+    list-style-type: none;
+    flex: 0 0 auto;
+}
+
+.flex-basis-grow {
+    display:flex;
+    border: 1px solid rgb(7, 6, 6);
+    padding: 0;
+    background-color: rgb(130, 128, 0);
+}
+
+.demo-absolute-relative {
+    display: flex;
+}
+
+.absolute-relative-child {
+    height: 100px;
+    background-color:red;
+    margin: 1em;
+    padding: 1em;
+    list-style-type: none;
+    flex: 1;
+}
+
+
+
