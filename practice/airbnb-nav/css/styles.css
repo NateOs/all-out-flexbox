@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+
+.logo {
+    height: 1em;
+    margin-right: auto;
+}
+
+ul {
+    display: flex;
+}
+
+li:first-child {
+    margin-right: auto;
+}
+
+li {
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 1em;
+    font-family:sans-serif ;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.container-nav {
+    height: 1em;
+    display: flex;
+    align-items: baseline; 
+    margin:0 1em;
+}

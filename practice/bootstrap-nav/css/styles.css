@@ -31,7 +31,7 @@ li {
 }
 
 .container-nav {
-    height: 1em;
+    height: 2em;
     display: flex;
     align-items: center; 
     margin:0 1em;
