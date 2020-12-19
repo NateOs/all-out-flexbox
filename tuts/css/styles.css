@@ -122,5 +122,33 @@ flex-direction: column;
     flex: 1;
 }
 
+.logo {
+    height: 1em;
+}
+.link-items {
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+}
+
+.container-nav__items {
+    display: flex;
+    align-items: baseline;
+}
+
+.navbar {
+    display: flex;
+    align-items: flex-end;
+}
+
+.navbar-items {
+    margin-left: 1em;
+}
+
+link-items:nth-child(1) {
+    margin-right: auto;
+}
+
+
+
 
 
