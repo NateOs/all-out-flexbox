@@ -1,0 +1,40 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    /* align-items: baseline; */
+}
+
+li:nth-child(3) {
+    margin-right: auto;
+}
+
+li:nth-child(4) {
+    margin-right: auto;
+}
+
+.list-container {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid green;
+}
+
+.list-items {
+    display: flex;
+    margin: 0 1em;
+}
+
+.logo {
+    height: 1.5em;
+}
+
+.icon {
+    height: 1.5em;
+}
+
+.active {
+    border-bottom: 2px orange solid;
+}
