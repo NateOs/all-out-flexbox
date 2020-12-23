@@ -29,10 +29,13 @@ li:nth-child(4) {
 
 .logo {
     height: 1.5em;
+    margin-right: 0.2em;
 }
 
 .icon {
     height: 1.5em;
+    margin-right: 0.2em;
+
 }
 
 .active {
