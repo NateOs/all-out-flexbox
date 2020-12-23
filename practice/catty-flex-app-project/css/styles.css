@@ -12,17 +12,30 @@ body{
     font-size: 0.9em    ;
 }
 
+main {
+    flex: 1 0 auto;/*fill the available space flex : {grow} {shrink} {basis}*/
+    display: flex;
+}
+
+aside {
+    flex: 0 0 40px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+aside i.fa {
+    font-size: 1em;
+}
+
 footer {
     flex: 0 0 90px;
     padding: 10px;
     color: #fff;
     background-color: rgba(61, 100, 158, 0.9);
-}
-
-main {
-    flex: 1 0 auto;/*fill the available space flex : {grow} {shrink} {basis}*/
-}
-
-footer {
-    flex:0 0 90px;/*dont grow or shrink*/
 }
